@@ -14,7 +14,7 @@ export function Layout({children}: LayoutProps) {
         <main
           role="main"
           id="mainContent"
-          className="flex-grow w-[1200px] mx-auto"
+          className="flex-grow mx-auto"
         >
           {children}
         </main>

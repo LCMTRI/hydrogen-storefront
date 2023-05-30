@@ -72,12 +72,12 @@ const Header = () => {
 						</ul>
 						<div className='flex items-center justify-end gap-5'>
 							<div className='h-full flex items-center' style={{background: `url('https://www.donguri-sora.com/user_data/assets/donguri/img/icon_cart.png') no-repeat left center`}}>
-								<a className='text-[#6c4f2c] pl-6 hover:scale-105 duration-300' href="#">
+								<a className='text-[#6c4f2c] pl-6 hover:opacity-60' href="#">
 									カート
 								</a>
 							</div>
 							<div className='h-full flex items-center' style={{background: `url('https://www.donguri-sora.com/user_data/assets/donguri/img/icon_login.png') no-repeat left center`}}>
-								<a className='text-[#6c4f2c] pl-9 hover:scale-105 duration-300' href="#">
+								<a className='text-[#6c4f2c] pl-9 hover:opacity-60' href="#">
 									ログイン
 								</a>
 							</div>

@@ -5,7 +5,7 @@ const Footer = () => {
 		<footer className="relative pb-32 pt-20">
 			<div className='footer'></div>
 			<section className="flex flex-row w-[1200px] mx-auto relative text-[#6c4f2c] font-medium">
-				<div className="box-border py-3 border-l border-[#ddcdb9]">
+				<div className="box-border py-3 border-l border-[#6c4f2c]">
 					<dl className='ml-[40px] mr-[20px]'>
 						<dt className='font-bold text-[#669858]'>
 							<a href="/donguri/user_data/category_list.php">カテゴリ一覧</a>
@@ -47,7 +47,7 @@ const Footer = () => {
 					</dl>
 				</div>
 
-				<div className="box-border py-3 border-l border-[#ddcdb9] flex flex-row">
+				<div className="box-border py-3 border-l border-[#6c4f2c] flex flex-row">
 					<dl className='ml-[40px] mr-[20px]'>
 						<dt className='font-bold text-[#669858]'>
 							<a href="/donguri/user_data/work_list.php">作品一覧</a>
@@ -147,7 +147,7 @@ const Footer = () => {
 					</dl>
 				</div>
 
-				<div className="box-border py-3 border-l border-[#ddcdb9]">
+				<div className="box-border py-3 border-l border-[#6c4f2c]">
 					<dl className='ml-[40px] mr-[20px]'>
 						<dt className='font-bold text-[#669858]'>
 							お買い物について
@@ -188,30 +188,30 @@ const Footer = () => {
 					</dl>
 				</div>
 
-				<div className="box-border py-3 border-x border-[#ddcdb9]">
+				<div className="box-border py-3 border-x border-[#6c4f2c]">
 					<dl className='ml-[40px] mr-[20px]'>
 						<dt className='font-bold text-[#669858]'>
 							<a href="#">ソーシャルメディア</a>
 						</dt>
 						<dd className='pt-8'>
 							<ul className='flex flex-col gap-3'>
-								<li className='hover:opacity-60 flex flex-row items-center gap-2'>
-									<a href="#">
+								<li>
+									<a className='hover:opacity-60 flex flex-row items-center gap-2' href="#">
 										<FaTwitterSquare className='w-6 h-6'/>
+										Twitter
 									</a>
-									Twitter
 								</li>
-								<li className='hover:opacity-60 flex flex-row items-center gap-2'>
-									<a href="#">
+								<li>
+									<a className='hover:opacity-60 flex flex-row items-center gap-2' href="#">
 										<FaFacebookSquare className='w-6 h-6'/>
+										Facebook
 									</a>
-									Facebook
 								</li>
-								<li className='hover:opacity-60 flex flex-row items-center gap-2'>
-									<a href="#">
+								<li>
+									<a className='hover:opacity-60 flex flex-row items-center gap-2' href="#">
 										<FaInstagramSquare className='w-6 h-6'/>
+										Instagram
 									</a>
-									Instagram
 								</li>
 							</ul>
 						</dd>

@@ -2,27 +2,32 @@ import { Image } from '@shopify/hydrogen';
 
 const ItemList3 = () => {
 	return (
-		<ul className="grid grid-cols-5 grid-rows-2 gap-2 justify-items-center">
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
-					<Image src="https://www.donguri-sora.com/upload/save_image/09011338_6310374300486.jpg" alt="" />
-					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
-						<li className="bg-[#db779b] px-2.5 rounded-full">
-							ラッピング可
-						</li>
-					</ul>
-					<p className="mt-2.5">
-					ハウルの動く城 晴雨兼用 折りたたみ傘
-					</p>
+		<ul className="grid grid-cols-5 grid-rows-2 gap-2 justify-items-center items-stretch mb-20">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col h-full' href="#">
+					<div className='flex flex-col gap-2.5'>
+						<Image src="https://www.donguri-sora.com/upload/save_image/09011338_6310374300486.jpg" alt="" />
+						<ul className="flex flex-row gap-1 text-white" style={{fontSize: ".625rem"}}>
+							<li className="bg-[#db779b] px-2.5 rounded-full">
+								ラッピング可
+							</li>
+						</ul>
+						<p className="">
+						ハウルの動く城 晴雨兼用 折りたたみ傘
+						</p>
+					</div>
 					<p className="mt-2.5 text-sm text-[#6c4f2c]">
 					4,290 円 <span className="small">(税込)</span>
 					</p>
 				</a>
 			</li>
 
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/03241158_641d11bf96f51.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#dcaf11] px-2.5 rounded-full">
 							NEW
@@ -40,9 +45,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
-					<Image src="https://www.donguri-sora.com/upload/save_image/04181724_643e53cf15026.jpg" alt="" />
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
+					<Image className='w-full' src="https://www.donguri-sora.com/upload/save_image/04181724_643e53cf15026.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#db779b] px-2.5 rounded-full">
 							ラッピング可
@@ -57,9 +65,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 			
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/03031629_6401a1bd2176a.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#db779b] px-2.5 rounded-full">
 							ラッピング可
@@ -74,9 +85,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 			
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/03241838_641d6fa525684.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#5b6e82] px-2.5 rounded-full">
 							限定
@@ -94,9 +108,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 			
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/03281436_6241494ce2250.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#3d9ac5] px-2.5 rounded-full">
 							再入荷
@@ -114,9 +131,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 			
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/09141817_614068b793879.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#3d9ac5] px-2.5 rounded-full">
 							再入荷
@@ -134,9 +154,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 			
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/10151659_5da57c604d785.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#3d9ac5] px-2.5 rounded-full">
 							再入荷
@@ -158,9 +181,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 			
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/05221053_646acb26127eb.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#3d9ac5] px-2.5 rounded-full">
 							再入荷
@@ -181,9 +207,12 @@ const ItemList3 = () => {
 				</a>
 			</li>
 
-			<li className='p-2 border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
-				<a href="#">
+			<li className='p-2 w-full border border-gray-300/0 hover:shadow-lg hover:border-gray-200 hover:scale-105 duration-200'>
+				<a className='flex flex-col' href="#">
 					<Image src="https://www.donguri-sora.com/upload/save_image/03161510_62317f6077f38.jpg" alt="" />
+					<div className='flex flex-col gap-2.5'>
+
+					</div>
 					<ul className="flex flex-row gap-1 mt-2.5 text-white" style={{fontSize: ".625rem"}}>
 						<li className="bg-[#e98351] px-2.5 rounded-full">
 							送料無料

@@ -47,3 +47,38 @@ ol, ul, li {
 .small {
   font-size: 80%;
 }
+
+.seasonal-section {
+  width: 100vw;
+  position: relative;
+  left: calc(-50vw + 50%);
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(102, 152, 88, 0.80);
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .5s ease;
+}
+
+.seasonal-image:hover .overlay {
+  height: 100%;
+}
+
+.text {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
